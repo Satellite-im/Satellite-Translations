@@ -1,4 +1,7 @@
 export default {
+  internal: {
+    missing_text: 'Missing prop `text`.',
+  },
   global: {
     name: 'Satellite.im',
     settings: 'Settings',
