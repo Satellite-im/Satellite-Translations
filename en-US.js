@@ -32,6 +32,7 @@ export default {
     crop: 'Crop',
     reply: 'Reply',
     more: 'More',
+    aspect_ratio_label: 'Aspect Ratio Off?',
   },
   controls: {
     mic: 'Mic',
@@ -176,6 +177,8 @@ export default {
           'Change the realm Satellite lives in. Changing a realm will mean you can only communicate with others in the same realm as you. Please only change if you know what you\'re doing.',
         chain: 'Realm',
         network: 'Network',
+        allow_embeds: 'Allow Embeds',
+        allow_embeds_description: 'Have Satellite try to load videos and link previews. This sends a request to the URL someone shares with you to get more information/embed the content from the source and may allow the site to track you.'
       },
       storage: {
         title: 'Storage',
