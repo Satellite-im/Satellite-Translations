@@ -1,7 +1,4 @@
 export default {
-  internal: {
-    missing_text: 'Missing prop `text`.',
-  },
   global: {
     name: 'Satellite.im',
     settings: 'Settings',
@@ -31,8 +28,17 @@ export default {
     copy_id: 'Copy ID',
     crop: 'Crop',
     reply: 'Reply',
+    edit: 'Edit',
+    pin: 'Pin',
+    send: 'Send',
     more: 'More',
+    always: 'Always',
+    motion: 'Motion',
+    never: 'Never',
     aspect_ratio_label: 'Aspect Ratio Off?',
+  },
+  wallet: {
+    send_money: 'Send Money',
   },
   controls: {
     mic: 'Mic',
@@ -101,6 +107,7 @@ export default {
         send_placeholder: 'Content you want to appear in local notification',
       },
       audio: {
+        title: 'Audio',
         sources: {
           title: 'Audio Sources',
           subtitle: 'Input and Output devices you want Satellite to use.',
@@ -147,6 +154,25 @@ export default {
           subtitle: 'Enable to help hide background noise in your environment.',
         },
       },
+      video: {
+        title: 'Video',
+        sources: {
+          permissionDeniedMessage:
+            "You have denied camera access so we can't see what devices you have. Please allow camera access in your browser.",
+          input: {
+            title: 'Video Input',
+            subtitle:
+              "Select which video device you'd like to share your beautiful smile from.",
+          },
+        },
+      },
+      screen: {
+        title: 'Screen Share',
+        captureMouse: {
+          title: 'Capture Mouse',
+          subtitle: 'Would you like to share your mouse in screen shares?',
+        },
+      },
       keybinds: {
         title: 'Default Keybinds',
         subtitle:
@@ -174,11 +200,12 @@ export default {
       network: {
         title: 'Realms',
         subtitle:
-          'Change the realm Satellite lives in. Changing a realm will mean you can only communicate with others in the same realm as you. Please only change if you know what you\'re doing.',
+          "Change the realm Satellite lives in. Changing a realm will mean you can only communicate with others in the same realm as you. Please only change if you know what you're doing.",
         chain: 'Realm',
         network: 'Network',
         allow_embeds: 'Allow Embeds',
-        allow_embeds_description: 'Have Satellite try to load videos and link previews. This sends a request to the URL someone shares with you to get more information/embed the content from the source and may allow the site to track you.'
+        allow_embeds_description:
+          'Have Satellite try to load videos and link previews. This sends a request to the URL someone shares with you to get more information/embed the content from the source and may allow the site to track you.',
       },
       storage: {
         title: 'Storage',
@@ -283,18 +310,31 @@ export default {
       status_placeholder: 'Ready for launch...',
       reg_status: {
         unknown: 'Not registered',
-        in_progress: 'We\'re transporting your data to the Realm...',
-        funding_account:
-          'Making contact, requesting entry to Realm...',
-        sending_transaction:
-          'Request Approved! Now entering the Realm...',
-        registered:
-          'Grats! Your a brand new citizen on the Realm.',
+        in_progress: "We're transporting your data to the Realm...",
+        funding_account: 'Making contact, requesting entry to Realm...',
+        sending_transaction: 'Request Approved! Now entering the Realm...',
+        registered: 'Grats! Your a brand new citizen on the Realm.',
       },
     },
     loading: {
       loading_account: 'Aligning satellites to retrieve your account...',
     },
+  },
+  friends: {
+    self_add: "You can't add yourself you silly goose.",
+    already_friend: "You're already friends with this user.",
+    not_found: "Hmm, we couldn't find a user at that address",
+    invalid_id: 'Invalid account ID',
+    request_sent: 'Friend request successfully sent!',
+    search_placeholder: 'Some User...',
+    add: 'Add Friend',
+    add_description:
+      'Enter your friends account ID, or nickname. Account IDs are case sensitive.',
+    add_qrcode_description:
+      'You can also add a friend by having them scan your QR code, or by scanning theirs.',
+    scan_code: 'Scan a Friend Code',
+    camera_scan: 'Allow Camera Scan',
+    friend_code: 'Your Friend Code',
   },
   market_place: {
     title: 'Marketplace',
