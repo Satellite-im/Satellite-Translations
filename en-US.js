@@ -45,6 +45,17 @@ export default {
     headphones: 'Audio',
     video: 'Video',
   },
+  popups: {
+    error: {
+      text: 'Text',
+      title: 'Error',
+      user_agent: 'User Agent',
+      source: 'Source',
+      line: 'Line',
+      confirm: 'Confirm',
+      contact: "'Oops! Something went wrong! Help us improve your experience by sending an error report'"
+    },
+  },
   pages: {
     files: {
       upload: 'Upload File',
@@ -72,7 +83,7 @@ export default {
     disclaimer: {
       title: 'Account Creation',
       subtitle:
-        "We're going to create an account for you. On the next screen you'll see a set of words. Screenshot this or write it down. This is the only way to backup your account.",
+          "We're going to create an account for you. On the next screen you'll see a set of words. Screenshot this or write it down. This is the only way to backup your account.",
       create: 'Create Account',
       or: 'Or',
       import: 'Import Account',
@@ -86,22 +97,22 @@ export default {
       developer: {
         title: 'Developer Settings',
         subtitle:
-          'Mock data and tweak settings for testing. This page is really just for internal use.',
+            'Mock data and tweak settings for testing. This page is really just for internal use.',
         identifier: 'Identifier',
       },
       notifications: {
         title: 'Notifications Settings',
         notes:
-          'Notifications work different on every platform. On Web, you need to request noticications. On Desktop and Android notications are enabled by default.',
+            'Notifications work different on every platform. On Web, you need to request noticications. On Desktop and Android notications are enabled by default.',
         enabled: 'Enable or Disable Notifications',
         labels: {
           current_platform: 'Your current platform is:',
         },
         web: {
           granted:
-            'In the web version of Satellite, you need to disable notifications inyour browser for this site.',
+              'In the web version of Satellite, you need to disable notifications inyour browser for this site.',
           denied:
-            "We cannot re-prompt you for notification permission in the web version of Satellite. You need to set notifications for this site to 'ask' or 'allow'",
+              "We cannot re-prompt you for notification permission in the web version of Satellite. You need to set notifications for this site to 'ask' or 'allow'",
         },
         send_label: 'Send Notification',
         send_placeholder: 'Content you want to appear in local notification',
@@ -114,29 +125,29 @@ export default {
           permissionButtonText: 'Request Permission',
           permissionRequestMessage: '',
           permissionDeniedMessage:
-            "You have denied microphone access so we can't see what devices you have. Please allow microphone access in your browser.",
+              "You have denied microphone access so we can't see what devices you have. Please allow microphone access in your browser.",
           browserDoesNotSupportAudioOutChange:
-            'Your Browser does not allow setting an audio out, so the default is used here. To change this, use a chrome based browser or update your default audio out in your OS.',
+              'Your Browser does not allow setting an audio out, so the default is used here. To change this, use a chrome based browser or update your default audio out in your OS.',
           input: {
             title: 'Audio Input',
             subtitle:
-              "Select which input device you'd like people to hear your silky smooth voice from.",
+                "Select which input device you'd like people to hear your silky smooth voice from.",
           },
           output: {
             title: 'Audio Output',
             subtitle:
-              "Select the device that you'd like to deliver sound to your ear holes with.",
+                "Select the device that you'd like to deliver sound to your ear holes with.",
           },
         },
         bitrate: {
           title: 'Audio Bitrate',
           subtitle:
-            'Higher bitrates will transmit better quality audio, lowering the bitrate can help with slower connection speeds.',
+              'Higher bitrates will transmit better quality audio, lowering the bitrate can help with slower connection speeds.',
         },
         sampleSize: {
           title: 'Sample Size',
           subtitle:
-            'A higher sample size will give you a broader dynamic range of audio. Higher samples require better connections.',
+              'A higher sample size will give you a broader dynamic range of audio. Higher samples require better connections.',
         },
         volume: {
           title: 'Output Volume',
@@ -147,7 +158,7 @@ export default {
         echo: {
           title: 'Echo Cancellation',
           subtitle:
-            'Enable to help cancel out some slight echo & feedback from your mic.',
+              'Enable to help cancel out some slight echo & feedback from your mic.',
         },
         noise: {
           title: 'Noise Suppression',
@@ -176,7 +187,7 @@ export default {
       keybinds: {
         title: 'Default Keybinds',
         subtitle:
-          'A list of the default keybinds for quickly navigating and using Satellite.',
+            'A list of the default keybinds for quickly navigating and using Satellite.',
         mute: 'Toggle Mute',
         settings: 'Open Settings',
         deafen: 'Toggle Deafen',
@@ -185,7 +196,7 @@ export default {
       accounts: {
         title: 'Accounts & Devices',
         subtitle:
-          "Select with account you'd prefer to default transactions from.",
+            "Select with account you'd prefer to default transactions from.",
         active: 'Active Account',
         gas_price: 'Transaction Fee Limit',
         devices: 'Connected Devices',
@@ -210,17 +221,17 @@ export default {
       storage: {
         title: 'Storage',
         subtitle:
-          'Control how your data is stored. You can export your local storage information as well as reset Satellite here. Be careful resetting your local storage will clear out your account.',
+            'Control how your data is stored. You can export your local storage information as well as reset Satellite here. Be careful resetting your local storage will clear out your account.',
         clear: {
           title: 'Clear Storage',
           subtitle:
-            'Reset Satellite. This will clear any saved accounts. Do not do this without backing up your account first.',
+              'Reset Satellite. This will clear any saved accounts. Do not do this without backing up your account first.',
           button: 'Clear Local Storage',
         },
         export: {
           title: 'Export Storage',
           subtitle:
-            "Export your local storage, it's your data you can do whatever you'd like with it.",
+              "Export your local storage, it's your data you can do whatever you'd like with it.",
           button: 'Export Local Storage',
         },
       },
@@ -230,7 +241,7 @@ export default {
         info: {
           title: 'Account Info',
           subtitle:
-            'Below is a list of helpful information regaurding your account.',
+              'Below is a list of helpful information regaurding your account.',
           accountID: 'Account Identifier',
           badges: 'Badges',
           preferences: 'Preferences',
@@ -242,7 +253,7 @@ export default {
         phrase: {
           title: 'Recovery Phrase',
           subtitle:
-            'Do not share this phrase with anyone. This phrase is used to recover your account. Anyone with access to this has access to your account.',
+              'Do not share this phrase with anyone. This phrase is used to recover your account. Anyone with access to this has access to your account.',
         },
       },
     },
@@ -255,7 +266,7 @@ export default {
     create: {
       heading: 'Create a server',
       photo_text:
-        "Give your server a face. Chose a memorable photo to show it's members.",
+          "Give your server a face. Chose a memorable photo to show it's members.",
       photo_button: 'Set photo',
       server_name: 'Enter a server name',
       server_name_placeholder: 'Server name...',
@@ -275,6 +286,12 @@ export default {
     accounts: {
       pin_too_short: 'Pin must be at least 5 characters.',
       invalid_pin: 'Pin does not match',
+    },
+    friends: {
+      request_already_sent: 'You have already sent a request to this user',
+      request_already_accepted: 'This user is already in your friends',
+      friend_info_not_found: 'Seems that this user is not registered',
+      textile_not_initialized: 'Your account is not ready. Try later',
     },
   },
   search: {
@@ -303,7 +320,7 @@ export default {
       create: 'Registration',
       sign_in: 'Sign in',
       photo_text:
-        'Customize how the world sees you, chose something memerable.',
+          'Customize how the world sees you, chose something memerable.',
       username: 'Username',
       username_placeholder: 'Neil Spaceman...',
       status: 'Status',
