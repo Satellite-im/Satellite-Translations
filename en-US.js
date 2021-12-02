@@ -18,6 +18,8 @@ export default {
     fullscreen: 'Fullscreen',
     exit_fullscreen: 'Exit fullscreen',
     more: 'More',
+    are: 'are',
+    is: 'is',
   },
   wallet: {
     send_money: 'Send Money',
@@ -27,6 +29,8 @@ export default {
     groups: 'Groups',
     pin: 'Pin',
     reply: 'Reply',
+    typing: 'typing',
+    many_typing: 'many users are typing',
   },
   controls: {
     copy_id: 'Copy ID',
