@@ -1,49 +1,46 @@
 export default {
   global: {
     name: 'Satellite.im',
-    settings: 'Settings',
-    copied: 'ATTN: Copied to clipboard.',
-    home: 'Home',
-    search: 'Search',
-    new_server: 'New Community',
-    friends: 'Friends',
-    files: 'Files',
-    messages: 'Messages',
-    groups: 'Groups',
-    glyphs: 'Glyphs',
-    cancel: 'Cancel',
-    exit_fullscreen: 'Exit fullscreen',
-    fullscreen: 'Fullscreen',
-    upload: 'Upload',
-    talk: 'Speak Freely...',
     encrypted: 'Encrypted',
     unencrypted: 'Unencrypted',
-    download: 'Download',
-    unpin: 'Unpin',
-    share_link: 'Share Link',
+  },
+  ui: {
+    talk: 'Speak Freely...',
     close: 'Close',
-    mute: 'Mute',
-    deafen: 'Deafen',
-    toggle: 'Toggle',
-    copy_id: 'Copy ID',
-    crop: 'Crop',
-    reply: 'Reply',
-    edit: 'Edit',
-    pin: 'Pin',
+    cancel: 'Cancel',
+    search: 'Search',
+    home: 'Home',
+    copied: 'ATTN: Copied to clipboard.',
+    unpin: 'Unpin',
     send: 'Send',
+    emotes: 'Emoji',
+    glyphs: 'Glyphs',
+    fullscreen: 'Fullscreen',
+    exit_fullscreen: 'Exit fullscreen',
     more: 'More',
-    always: 'Always',
-    motion: 'Motion',
-    never: 'Never',
-    aspect_ratio_label: 'Aspect Ratio Off?',
   },
   wallet: {
     send_money: 'Send Money',
   },
+  messaging: {
+    messages: 'Messages',
+    groups: 'Groups',
+    pin: 'Pin',
+    reply: 'Reply',
+  },
   controls: {
+    copy_id: 'Copy ID',
+    share_link: 'Share Link',
+    download: 'Download',
     mic: 'Mic',
     headphones: 'Audio',
     video: 'Video',
+    mute: 'Mute',
+    toggle: 'Toggle',
+    deafen: 'Deafen',
+    crop: 'Crop',
+    upload: 'Upload',
+    edit: 'Edit',
   },
   popups: {
     error: {
@@ -53,12 +50,16 @@ export default {
       source: 'Source',
       line: 'Line',
       confirm: 'Confirm',
-      contact: "'Oops! Something went wrong! Help us improve your experience by sending an error report'"
+      contact:
+        'Oops! Something went wrong! Help us improve your experience by sending an error report',
     },
+  },
+  files: {
+    files: 'Files',
+    upload: 'Upload File',
   },
   pages: {
     files: {
-      upload: 'Upload File',
       refresh: 'Refresh',
       new_folder: 'New Folder',
       new_folder_prompt: 'New Folder:',
@@ -83,10 +84,16 @@ export default {
     disclaimer: {
       title: 'Account Creation',
       subtitle:
-          "We're going to create an account for you. On the next screen you'll see a set of words. Screenshot this or write it down. This is the only way to backup your account.",
+        "We're going to create an account for you. On the next screen, you'll see a set of words. Screenshot this or write it down. This is the only way to backup your account.",
       create: 'Create Account',
       or: 'Or',
       import: 'Import Account',
+    },
+    inputAccount: {
+      title: 'Import Account',
+      subtitle: 'Enter your 12 word pass phrase.',
+      enter: 'Enter Passphrase',
+      recover: 'Recover Account',
     },
     phrase: {
       title: 'Recovery Seed',
@@ -94,25 +101,30 @@ export default {
       write_down: 'Write this down.',
     },
     settings: {
+      settings: 'Settings',
+      motion: 'Motion',
+      never: 'Never',
+      always: 'Always',
+      aspect_ratio_label: 'Aspect Ratio Off?',
       developer: {
         title: 'Developer Settings',
         subtitle:
-            'Mock data and tweak settings for testing. This page is really just for internal use.',
+          'Mock data and tweak settings for testing. This page is really just for internal use.',
         identifier: 'Identifier',
       },
       notifications: {
         title: 'Notifications Settings',
         notes:
-            'Notifications work different on every platform. On Web, you need to request noticications. On Desktop and Android notications are enabled by default.',
+          'Notifications work different on every platform. On Web, you need to request notifications. On Desktop and Android notifications are enabled by default.',
         enabled: 'Enable or Disable Notifications',
         labels: {
           current_platform: 'Your current platform is:',
         },
         web: {
           granted:
-              'In the web version of Satellite, you need to disable notifications inyour browser for this site.',
+            'In the web version of Satellite, you need to disable notifications in your browser for this site.',
           denied:
-              "We cannot re-prompt you for notification permission in the web version of Satellite. You need to set notifications for this site to 'ask' or 'allow'",
+            "We cannot re-prompt you for notification permission in the web version of Satellite. You need to set notifications for this site to 'ask' or 'allow'",
         },
         send_label: 'Send Notification',
         send_placeholder: 'Content you want to appear in local notification',
@@ -125,29 +137,29 @@ export default {
           permissionButtonText: 'Request Permission',
           permissionRequestMessage: '',
           permissionDeniedMessage:
-              "You have denied microphone access so we can't see what devices you have. Please allow microphone access in your browser.",
+            "You have denied microphone access so we can't see what devices you have. Please allow microphone access in your browser.",
           browserDoesNotSupportAudioOutChange:
-              'Your Browser does not allow setting an audio out, so the default is used here. To change this, use a chrome based browser or update your default audio out in your OS.',
+            'Your Browser does not allow setting audio out, so the default is used here. To change this, use a chrome based browser or update your default audio out in your OS.',
           input: {
             title: 'Audio Input',
             subtitle:
-                "Select which input device you'd like people to hear your silky smooth voice from.",
+              "Select which input device you'd like people to hear your silky smooth voice from.",
           },
           output: {
             title: 'Audio Output',
             subtitle:
-                "Select the device that you'd like to deliver sound to your ear holes with.",
+              "Select the device that you'd like to deliver sound to your ear holes with.",
           },
         },
         bitrate: {
           title: 'Audio Bitrate',
           subtitle:
-              'Higher bitrates will transmit better quality audio, lowering the bitrate can help with slower connection speeds.',
+            'Higher bitrates will transmit better quality audio, lowering the bitrate can help with slower connection speeds.',
         },
         sampleSize: {
           title: 'Sample Size',
           subtitle:
-              'A higher sample size will give you a broader dynamic range of audio. Higher samples require better connections.',
+            'A higher sample size will give you a broader dynamic range of audio. Higher samples require better connections.',
         },
         volume: {
           title: 'Output Volume',
@@ -155,10 +167,13 @@ export default {
         inputVolume: {
           title: 'Input Volume',
         },
+        systemVolume: {
+          title: 'System Volume',
+        },
         echo: {
           title: 'Echo Cancellation',
           subtitle:
-              'Enable to help cancel out some slight echo & feedback from your mic.',
+            'Enable to help cancel out some slight echo & feedback from your mic.',
         },
         noise: {
           title: 'Noise Suppression',
@@ -187,7 +202,7 @@ export default {
       keybinds: {
         title: 'Default Keybinds',
         subtitle:
-            'A list of the default keybinds for quickly navigating and using Satellite.',
+          'A list of the default keybinds for quickly navigating and using Satellite.',
         mute: 'Toggle Mute',
         settings: 'Open Settings',
         deafen: 'Toggle Deafen',
@@ -196,7 +211,7 @@ export default {
       accounts: {
         title: 'Accounts & Devices',
         subtitle:
-            "Select with account you'd prefer to default transactions from.",
+          "Select with account you'd prefer to default transactions from.",
         active: 'Active Account',
         gas_price: 'Transaction Fee Limit',
         devices: 'Connected Devices',
@@ -204,7 +219,7 @@ export default {
       },
       personalize: {
         title: 'Personalize Satellite',
-        subtitle: 'Make it your own and chose cusotm colors & themes.',
+        subtitle: 'Make it your own and choose custom colors & themes.',
         theme: 'Color Theme',
         language: 'Language',
       },
@@ -221,17 +236,17 @@ export default {
       storage: {
         title: 'Storage',
         subtitle:
-            'Control how your data is stored. You can export your local storage information as well as reset Satellite here. Be careful resetting your local storage will clear out your account.',
+          'Control how your data is stored. You can export your local storage information as well as reset Satellite here. Be careful resetting your local storage will clear out your account.',
         clear: {
           title: 'Clear Storage',
           subtitle:
-              'Reset Satellite. This will clear any saved accounts. Do not do this without backing up your account first.',
+            'Reset Satellite. This will clear any saved accounts. Do not do this without backing up your account first.',
           button: 'Clear Local Storage',
         },
         export: {
           title: 'Export Storage',
           subtitle:
-              "Export your local storage, it's your data you can do whatever you'd like with it.",
+            "Export your local storage, it's your data you can do whatever you'd like with it.",
           button: 'Export Local Storage',
         },
       },
@@ -241,7 +256,7 @@ export default {
         info: {
           title: 'Account Info',
           subtitle:
-              'Below is a list of helpful information regaurding your account.',
+            'Below is a list of helpful information regaurding your account.',
           accountID: 'Account Identifier',
           badges: 'Badges',
           preferences: 'Preferences',
@@ -253,20 +268,25 @@ export default {
         phrase: {
           title: 'Recovery Phrase',
           subtitle:
-              'Do not share this phrase with anyone. This phrase is used to recover your account. Anyone with access to this has access to your account.',
+            'Do not share this phrase with anyone. This phrase is used to recover your account. Anyone with access to this has access to your account.',
         },
       },
     },
     chat: {
       new_message: 'messages',
       jump_to_current: 'View New Messages',
+      chat_now: 'chat now',
+      add_member: 'Add Member +',
+      switch_chat: 'Switch Chat',
+      start_watch_party: 'Watch Party',
     },
   },
   servers: {
+    new_server: 'New Community',
     create: {
       heading: 'Create a server',
       photo_text:
-          "Give your server a face. Chose a memorable photo to show it's members.",
+        "Give your server a face. Chose a memorable photo to show it's members.",
       photo_button: 'Set photo',
       server_name: 'Enter a server name',
       server_name_placeholder: 'Server name...',
@@ -292,6 +312,11 @@ export default {
       request_already_accepted: 'This user is already in your friends',
       friend_info_not_found: 'Seems that this user is not registered',
       textile_not_initialized: 'Your account is not ready. Try later',
+    },
+    chat: {
+      drop_file_count: 'Sorry, you can only upload 4 files at a time',
+      unable_preview: 'Unable to preview file',
+      upload_blocked: 'Upload Blocked',
     },
   },
   search: {
@@ -320,7 +345,7 @@ export default {
       create: 'Registration',
       sign_in: 'Sign in',
       photo_text:
-          'Customize how the world sees you, chose something memerable.',
+        'Customize how the world sees you, choose something memorable.',
       username: 'Username',
       username_placeholder: 'Neil Spaceman...',
       status: 'Status',
@@ -338,6 +363,7 @@ export default {
     },
   },
   friends: {
+    friends: 'Friends',
     self_add: "You can't add yourself you silly goose.",
     already_friend: "You're already friends with this user.",
     not_found: "Hmm, we couldn't find a user at that address",
@@ -346,7 +372,7 @@ export default {
     search_placeholder: 'Some User...',
     add: 'Add Friend',
     add_description:
-      'Enter your friends account ID, or nickname. Account IDs are case sensitive.',
+      "Enter your friend's account ID or nickname. Account IDs are case sensitive.",
     add_qrcode_description:
       'You can also add a friend by having them scan your QR code, or by scanning theirs.',
     scan_code: 'Scan a Friend Code',
