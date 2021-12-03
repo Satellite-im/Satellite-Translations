@@ -110,6 +110,12 @@ export default {
       never: 'Never',
       always: 'Always',
       aspect_ratio_label: 'Aspect Ratio Off?',
+      app_info: 'Application Info',
+      info: {
+        title: 'Application Info',
+        subtitle: 'Below is information that may be helpful to you when creating bug reports or developing on our application.',
+        
+      },
       developer: {
         title: 'Developer Settings',
         subtitle:
