@@ -114,8 +114,8 @@ export default {
       info: {
         title: 'Application Info',
         subtitle: 'Below is information that may be helpful to you when creating bug reports or developing on our application.',
-        
       },
+      changelog: 'Changelog',
       developer: {
         title: 'Developer Settings',
         subtitle:
