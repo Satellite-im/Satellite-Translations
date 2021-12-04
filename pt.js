@@ -11,7 +11,7 @@ export default {
     search: 'Pesquisar',
     home: 'Início',
     copied: 'Atenção: Copiado para a área de transferência',
-    unpin: 'Unpin',
+    unpin: 'Desafixar',
     send: 'Enviar',
     emotes: 'Emoji',
     glyphs: 'Glyphs',
@@ -27,7 +27,7 @@ export default {
   messaging: {
     messages: 'Mensagens',
     groups: 'Grupos',
-    pin: 'Pin',
+    pin: 'Fixar',
     reply: 'Responder',
     typing: 'escrever',
     many_typing: 'vários utilizadores estão a escrever',
@@ -40,8 +40,8 @@ export default {
     headphones: 'Áudio',
     video: 'Vídeo',
     mute: 'Mute',
-    toggle: 'Toggle',
-    deafen: 'Deafen',
+    toggle: 'Alternar',
+    deafen: 'Silenciar',
     crop: 'Cortar',
     upload: 'Enviar',
     edit: 'Editar',
@@ -100,7 +100,7 @@ export default {
       recover: 'Recuperar Conta',
     },
     phrase: {
-      title: 'Recovery Seed',
+      title: 'Combinação de Recuperação',
       done: 'Guardei',
       write_down: 'Aponta isto.',
     },
@@ -131,39 +131,39 @@ export default {
         },
         web: {
           granted:
-            'In the web version of Satellite, you need to disable notifications in your browser for this site.',
+            'Na versão web do Satellite, precisas de desativar notificações no teu browser para este site.',
           denied:
-            "We cannot re-prompt you for notification permission in the web version of Satellite. You need to set notifications for this site to 'ask' or 'allow'",
+            "Não podemos voltar a pedir-te permissão para notificações na versão web do Satellite. Precisas de configurar as notificações para este site para 'pedir' ou 'permitir'",
         },
-        send_label: 'Send Notification',
-        send_placeholder: 'Content you want to appear in local notification',
+        send_label: 'Enviar Notificação',
+        send_placeholder: 'Conteúdo que queres que apareça nas tuas notificações locais',
       },
       audio: {
-        title: 'Audio',
+        title: 'Áudio',
         sources: {
-          title: 'Audio Sources',
-          subtitle: 'Input and Output devices you want Satellite to use.',
-          permissionButtonText: 'Request Permission',
+          title: 'Fontes de Áudio',
+          subtitle: 'Entrada e Saída de dispositivos que queres que o Satellite use.',
+          permissionButtonText: 'Pedir Permissão',
           permissionRequestMessage: '',
           permissionDeniedMessage:
-            "You have denied microphone access so we can't see what devices you have. Please allow microphone access in your browser.",
+            "Negaste permissão de microfone portanto não podemos verificar que dispositivos tens. Por favor, permite acesso ao microfone no teu browser.",
           browserDoesNotSupportAudioOutChange:
-            'Your Browser does not allow setting audio out, so the default is used here. To change this, use a chrome based browser or update your default audio out in your OS.',
+            'O teu Browser não suporta definições de saída de áudio, portanto o básico é usado aqui. Para mudar isto, usa um browser baseado em Chrome ou atualiza o teu áudio de saída padrão no teu OS.',
           input: {
-            title: 'Audio Input',
+            title: 'Entrada de Áudio',
             subtitle:
-              "Select which input device you'd like people to hear your silky smooth voice from.",
+              "Selecciona a partir de quais dispositivos de entrada de áudio queres que as pessoas te ouçam.",
           },
           output: {
-            title: 'Audio Output',
+            title: 'Saída de Áudio',
             subtitle:
-              "Select the device that you'd like to deliver sound to your ear holes with.",
+              "Selecciona em que dispositivo queres receber áudio.",
           },
         },
         bitrate: {
-          title: 'Audio Bitrate',
+          title: 'Transmissão de Áudio',
           subtitle:
-            'Higher bitrates will transmit better quality audio, lowering the bitrate can help with slower connection speeds.',
+            'Com uma taxa de transmissão mais elevada, receberás áudio com maior qualidade, diminuir a taxa de transmissão pode ajudar com velocidades de ligação lentas.',
         },
         sampleSize: {
           title: 'Sample Size',
