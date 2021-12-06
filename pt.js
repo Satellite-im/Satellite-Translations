@@ -125,7 +125,7 @@ export default {
         title: 'Definições de Notificações',
         notes:
           'Notifications work different on every platform. On Web, you need to request notifications. On Desktop and Android notifications are enabled by default.',
-        enabled: 'Enable or Disable Notifications',
+        enabled: 'Ativa ou Desativa Notificações',
         labels: {
           current_platform: 'Your current platform is:',
         },
@@ -177,7 +177,7 @@ export default {
           title: 'Input Volume',
         },
         systemVolume: {
-          title: 'System Volume',
+          title: 'Volume de Sistema',
         },
         echo: {
           title: 'Echo Cancellation',
@@ -185,8 +185,8 @@ export default {
             'Enable to help cancel out some slight echo & feedback from your mic.',
         },
         noise: {
-          title: 'Noise Suppression',
-          subtitle: 'Enable to help hide background noise in your environment.',
+          title: 'Supressão de Ruído',
+          subtitle: 'Ativa para ajudar a eliminar barulho de fundo no teu ambiente.',
         },
       },
       video: {
@@ -202,7 +202,7 @@ export default {
         },
       },
       screen: {
-        title: 'Screen Share',
+        title: 'Partilha de Ecrã',
         captureMouse: {
           title: 'Capture Mouse',
           subtitle: 'Would you like to share your mouse in screen shares?',
@@ -218,19 +218,19 @@ export default {
         call: 'Call Active Chat',
       },
       accounts: {
-        title: 'Accounts & Devices',
+        title: 'Contas e Dispositivos',
         subtitle:
           "Select with account you'd prefer to default transactions from.",
         active: 'Active Account',
         gas_price: 'Transaction Fee Limit',
-        devices: 'Connected Devices',
-        no_devices: 'No connected devices found.',
+        devices: 'Dispositivos Conetados',
+        no_devices: 'Não foram encontrados dispositivos conetados.',
       },
       personalize: {
-        title: 'Personalize Satellite',
+        title: 'Personalizar Satellite',
         subtitle: 'Make it your own and choose custom colors & themes.',
         theme: 'Color Theme',
-        language: 'Language',
+        language: 'Linguagem',
       },
       network: {
         title: 'Realms',
