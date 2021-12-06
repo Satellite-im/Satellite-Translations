@@ -20,6 +20,7 @@ export default {
     more: 'More',
     are: 'are',
     is: 'is',
+    live: 'Live',
   },
   wallet: {
     send_money: 'Send Money',
