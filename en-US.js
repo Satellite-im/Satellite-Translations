@@ -267,7 +267,7 @@ export default {
         info: {
           title: 'Account Info',
           subtitle:
-            'Below is a list of helpful information regaurding your account.',
+            'Below is a list of helpful information regarding your account.',
           accountID: 'Account Identifier',
           badges: 'Badges',
           preferences: 'Preferences',
