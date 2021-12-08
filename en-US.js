@@ -389,6 +389,12 @@ export default {
     scan_code: 'Scan a Friend Code',
     camera_scan: 'Allow Camera Scan',
     friend_code: 'Your Friend Code',
+    accept: 'Accept',
+    decline: 'Decline',
+    unblock: 'Unblock',
+    send: 'Send',
+    message: 'Message',
+    options: 'Options',
   },
   market_place: {
     title: 'Marketplace',
