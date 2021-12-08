@@ -3,6 +3,8 @@ export default {
     name: 'Satellite.im',
     encrypted: 'Encrypted',
     unencrypted: 'Unencrypted',
+    upload: 'Upload',
+    upload_files: 'Upload Files',
   },
   ui: {
     talk: 'Speak Freely...',
