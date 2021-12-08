@@ -5,6 +5,7 @@ export default {
     unencrypted: 'Unencrypted',
     upload: 'Upload',
     upload_files: 'Upload Files',
+    test: 'Delete Me',
   },
   ui: {
     talk: 'Speak Freely...',
