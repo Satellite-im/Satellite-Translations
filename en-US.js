@@ -297,7 +297,7 @@ export default {
     create: {
       heading: 'Create a server',
       photo_text:
-        "Give your server a face. Chose a memorable photo to show it's members.",
+        "Give your server a face. Choose a memorable photo to show it's members.",
       photo_button: 'Set photo',
       server_name: 'Enter a server name',
       server_name_placeholder: 'Server name...',
