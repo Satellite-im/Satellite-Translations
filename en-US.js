@@ -5,7 +5,6 @@ export default {
     unencrypted: 'Unencrypted',
     upload: 'Upload',
     upload_files: 'Upload Files',
-    test: 'Delete Me',
   },
   ui: {
     talk: 'Speak Freely...',
@@ -47,7 +46,6 @@ export default {
     toggle: 'Toggle',
     deafen: 'Deafen',
     crop: 'Crop',
-    upload: 'Upload',
     edit: 'Edit',
   },
   popups: {
@@ -64,7 +62,6 @@ export default {
   },
   files: {
     files: 'Files',
-    upload: 'Upload File',
   },
   pages: {
     files: {
@@ -77,7 +74,6 @@ export default {
         type: 'Type',
         encrypted: 'Encrypted',
         size: 'Size',
-        upload: 'Upload File',
       },
     },
     unlock: {
