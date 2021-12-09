@@ -317,6 +317,7 @@ export default {
       pin_too_short: 'Pin must be at least 5 characters.',
       invalid_pin: 'Pin does not match',
       user_derivation_failed: 'We were unable to verify your pass phrase. Please check it and try again.',
+      mnemonic_not_present: 'Problem with pass phrase, please try again.',
     },
     friends: {
       request_already_sent: 'You have already sent a request to this user',
