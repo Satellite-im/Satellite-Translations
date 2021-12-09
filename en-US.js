@@ -95,14 +95,14 @@ export default {
     },
     inputAccount: {
       title: 'Import Account',
-      subtitle: 'Enter your 12 word pass phrase.',
+      subtitle: 'Enter your 12 word pass phrase in exactly the same order your recovery seed was generated.',
       enter: 'Enter Passphrase',
       recover: 'Recover Account',
     },
     phrase: {
       title: 'Recovery Seed',
       done: 'I Saved It',
-      write_down: 'Write this down.',
+      write_down: 'Write this down in the order that they appear here. Having the correct order is very important when you are recovering your account.',
     },
     settings: {
       settings: 'Settings',
@@ -316,6 +316,7 @@ export default {
     accounts: {
       pin_too_short: 'Pin must be at least 5 characters.',
       invalid_pin: 'Pin does not match',
+      user_derivation_failed: 'We were unable to verify your pass phrase. Please check it and try again.',
     },
     friends: {
       request_already_sent: 'You have already sent a request to this user',
