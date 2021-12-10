@@ -95,14 +95,42 @@ export default {
     },
     inputAccount: {
       title: 'Import Account',
-      subtitle: 'Enter your 12 word pass phrase in exactly the same order your recovery seed was generated.',
+      subtitle:
+        'Enter your 12 word pass phrase in exactly the same order your recovery seed was generated.',
       enter: 'Enter Passphrase',
       recover: 'Recover Account',
     },
     phrase: {
       title: 'Recovery Seed',
       done: 'I Saved It',
-      write_down: 'Write this down in the order that they appear here. Having the correct order is very important when you are recovering your account.',
+      write_down:
+        'Write this down in the order that they appear here. Having the correct order is very important when you are recovering your account.',
+    },
+    privacy: {
+      title: 'Priavacy Settings',
+      subtitle:
+        'Choose which features to enable to best suit your privacy preferences.',
+      continue: 'Continue',
+      register: {
+        title: 'Register Username Publicly',
+        subtitle:
+          'Publicly associate your account ID with a human readable username. Anyone can see this assocication.',
+      },
+      pin: {
+        title: 'Store Account Pin',
+        subtitle:
+          "Store your account pin locally so you don't have to enter it manually every time. This is not recommended.",
+      },
+      activity: {
+        title: 'Display Current Activity',
+        subtitle:
+          "Allow Satellite to see what games you're playing and show them off on your profile so friends can jump in.",
+      },
+      embeds: {
+        title: 'Enable External Embeds',
+        subtitle:
+          'Allow Satellite to fetch data from external sites in order to expand links like Spotify, YouTube, and more.',
+      },
     },
     settings: {
       settings: 'Settings',
@@ -113,7 +141,8 @@ export default {
       app_info: 'Application Info',
       info: {
         title: 'Application Info',
-        subtitle: 'Below is information that may be helpful to you when creating bug reports or developing on our application.',
+        subtitle:
+          'Below is information that may be helpful to you when creating bug reports or developing on our application.',
       },
       changelog: 'Changelog',
       developer: {
@@ -316,7 +345,8 @@ export default {
     accounts: {
       pin_too_short: 'Pin must be at least 5 characters.',
       invalid_pin: 'Pin does not match',
-      user_derivation_failed: 'We were unable to verify your pass phrase. Please check it and try again.',
+      user_derivation_failed:
+        'We were unable to verify your pass phrase. Please check it and try again.',
       mnemonic_not_present: 'Problem with pass phrase, please try again.',
     },
     friends: {
