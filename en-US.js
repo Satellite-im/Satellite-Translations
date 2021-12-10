@@ -107,7 +107,7 @@ export default {
         'Write this down in the order that they appear here. Having the correct order is very important when you are recovering your account.',
     },
     privacy: {
-      title: 'Priavacy Settings',
+      title: 'Privacy Settings',
       subtitle:
         'Choose which features to enable to best suit your privacy preferences.',
       continue: 'Continue',
