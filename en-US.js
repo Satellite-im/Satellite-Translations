@@ -96,7 +96,7 @@ export default {
     inputAccount: {
       title: 'Import Account',
       subtitle:
-        'Enter your 12 word pass phrase in exactly the same order your recovery seed was generated.',
+        'Enter your 12 word passphrase in exactly the same order your recovery seed was generated.',
       enter: 'Enter Passphrase',
       recover: 'Recover Account',
     },
@@ -346,8 +346,8 @@ export default {
       pin_too_short: 'Pin must be at least 5 characters.',
       invalid_pin: 'Pin does not match',
       user_derivation_failed:
-        'We were unable to verify your pass phrase. Please check it and try again.',
-      mnemonic_not_present: 'Problem with pass phrase, please try again.',
+        'We were unable to verify your passphrase. Please check it and try again.',
+      mnemonic_not_present: 'Problem with passphrase, please try again.',
     },
     friends: {
       request_already_sent: 'You have already sent a request to this user',
