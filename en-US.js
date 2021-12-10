@@ -114,7 +114,7 @@ export default {
       register: {
         title: 'Register Username Publicly',
         subtitle:
-          'Publicly associate your account ID with a human readable username. Anyone can see this assocication.',
+          'Publicly associate your account ID with a human readable username. Anyone can see this association.',
       },
       pin: {
         title: 'Store Account Pin',
