@@ -430,4 +430,7 @@ export default {
   market_place: {
     title: 'Marketplace',
   },
+  glyphs: {
+    view_pack:'View Glyph Pack'
+  }
 }
