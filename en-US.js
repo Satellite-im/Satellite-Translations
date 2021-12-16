@@ -23,7 +23,7 @@ export default {
     are: 'are',
     is: 'is',
     live: 'Live',
-    edited: 'edited'
+    edited: 'edited',
   },
   wallet: {
     send_money: 'Send Money',
@@ -432,6 +432,6 @@ export default {
     title: 'Marketplace',
   },
   glyphs: {
-    view_pack:'View Glyph Pack'
-  }
+    view_pack: 'View Glyph Pack',
+  },
 }
