@@ -23,6 +23,7 @@ export default {
     are: 'are',
     is: 'is',
     live: 'Live',
+    edited: 'edited'
   },
   wallet: {
     send_money: 'Send Money',
