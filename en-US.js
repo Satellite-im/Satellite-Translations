@@ -23,10 +23,33 @@ export default {
     are: 'are',
     is: 'is',
     live: 'Live',
-    edited: 'edited',
   },
   wallet: {
+    wallet: 'Wallet',
     send_money: 'Send Money',
+    recent_transactions: 'Recent Transactions',
+    accounts: {
+      linked_accounts: 'Linked Accounts',
+      link_new_account_or_device: 'Link New Account / Device',
+      require_pin_auth: 'Require Pin Auth?',
+      security_suggestion:
+        'This is suggested for all users to increase financial security',
+    },
+    balance: {
+      balance: 'Balance',
+      add_funds: 'Add Funds',
+      cash_out: 'Cash Out',
+    },
+    mini_wallet: {
+      details: 'Details',
+      send_money: 'Send Money',
+      request_money: 'Request Money',
+      to: 'To: ',
+      from: 'From: ',
+      amount: 'Amount: ',
+      currency: 'Currency: ',
+      txid: 'TXID: ',
+    },
   },
   messaging: {
     messages: 'Messages',
@@ -35,6 +58,13 @@ export default {
     reply: 'Reply',
     typing: 'typing',
     many_typing: 'many users are typing',
+    new_messages: 'New Messages',
+    pinned: {
+      archived_messages: 'Archived Messages',
+      new: 'New',
+      old: 'Old',
+      files: 'Files',
+    },
   },
   controls: {
     copy_id: 'Copy ID',
@@ -48,6 +78,7 @@ export default {
     deafen: 'Deafen',
     crop: 'Crop',
     edit: 'Edit',
+    end_stream: 'End Stream',
   },
   popups: {
     error: {
@@ -69,12 +100,27 @@ export default {
       refresh: 'Refresh',
       new_folder: 'New Folder',
       new_folder_prompt: 'New Folder:',
+      file_type: 'File Type',
       browse: {
+        files: 'Files',
+        search: 'Search...',
         name: 'Name',
         modified: 'Modified',
         type: 'Type',
         encrypted: 'Encrypted',
         size: 'Size',
+      },
+      aside: {
+        free_tier: 'Free Tier',
+        upgrade: 'Upgrade',
+        quick_access: 'Quick Access',
+        shared_items: 'Shared Items',
+      },
+      upload: {
+        close: 'Close',
+        scanning_image: 'Scanning Image...',
+        send: 'Send',
+        cancel: 'Cancel',
       },
     },
     unlock: {
@@ -247,6 +293,10 @@ export default {
         settings: 'Open Settings',
         deafen: 'Toggle Deafen',
         call: 'Call Active Chat',
+        clear: 'Clear',
+        save: 'Save',
+        cancel: 'Cancel',
+        reset_all: 'Reset All Keybinds',
       },
       accounts: {
         title: 'Accounts & Devices',
@@ -319,6 +369,17 @@ export default {
       add_member: 'Add Member +',
       switch_chat: 'Switch Chat',
       start_watch_party: 'Watch Party',
+      new_chat: 'New Chat',
+      new_chat_description:
+        'Select one or more of your friends to chat in groups, or one-on-one.',
+      no_friends_yet: 'No Friends Yet',
+      no_friends_yet_text: "The world doesn't have to be so lonely.",
+      enhancers: {
+        glyphs: 'Glyphs',
+        emoji: 'Emoji',
+        gifs: 'Gifs',
+        search: 'Search...',
+      },
     },
   },
   servers: {
@@ -363,6 +424,7 @@ export default {
     },
   },
   search: {
+    search: 'Search... ',
     input: {
       search_options: 'SEARCH OPTIONS',
       search_for: 'SEARCH FOR',
@@ -371,6 +433,9 @@ export default {
       search_results: 'Search results',
       more_filters: 'More filters',
       results: 'Results',
+      users: 'Users',
+      conversations: 'Conversations',
+      select_date: 'Select Date',
     },
   },
   media: {
@@ -416,6 +481,7 @@ export default {
     add: 'Add Friend',
     add_description:
       "Enter your friend's account ID or nickname. Account IDs are case sensitive.",
+    add_via_qr: 'Add Via QR',
     add_qrcode_description:
       'You can also add a friend by having them scan your QR code, or by scanning theirs.',
     scan_code: 'Scan a Friend Code',
@@ -430,8 +496,24 @@ export default {
   },
   market_place: {
     title: 'Marketplace',
+    glyphs: 'Glyphs',
+    themes: 'Themes',
+    nfts: 'NFTs',
   },
   glyphs: {
     view_pack: 'View Glyph Pack',
+    back: 'Back',
+    new: 'New',
+    sale: 'Sale',
+    shop_all: 'Shop All Glyphs',
+    shop_now: 'Shop Now',
+    trending: 'Trending',
+  },
+  modal: {
+    update_modal: {
+      update_required:
+        "This update requires a refresh of the Alpha application. Click 'Update Now' below to start fresh on the new update.",
+      got_it: 'Got It!',
+    },
   },
 }
