@@ -511,7 +511,7 @@ export default {
     trending: 'Trending',
   },
   alerts: {
-    caught_up: 'You\'re all caught up!',
+    caught_up: "You're all caught up!",
   },
   modal: {
     update_modal: {
