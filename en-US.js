@@ -510,6 +510,9 @@ export default {
     shop_now: 'Shop Now',
     trending: 'Trending',
   },
+  alerts: {
+    caught_up: "You're all caught up!",
+  },
   modal: {
     update_modal: {
       update_required:
