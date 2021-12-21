@@ -394,7 +394,7 @@ export default {
       server_name_placeholder: 'Server name...',
       create_server: 'Create server',
       select_friends: 'Invite your friends to this server',
-      server_name_error: 'Server name must be at least 5 characters',
+      server_name_error: 'Server name must be at least 5 characters.',
       select_friends_placeholder: 'Search friends...',
     },
   },
