@@ -394,6 +394,7 @@ export default {
       server_name_placeholder: 'Server name...',
       create_server: 'Create server',
       select_friends: 'Invite your friends to this server',
+      server_name_error: 'Server name must be at least 5 characters',
       select_friends_placeholder: 'Search friends...',
     },
   },
@@ -457,6 +458,7 @@ export default {
         'Customize how the world sees you, choose something memorable.',
       username: 'Username',
       username_placeholder: 'Neil Spaceman...',
+      username_error: 'Username must be at least 5 characters.',
       status: 'Status',
       status_placeholder: 'Ready for launch...',
       reg_status: {
