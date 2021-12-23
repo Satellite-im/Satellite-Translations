@@ -511,6 +511,7 @@ export default {
     shop_all: 'Shop All Glyphs',
     shop_now: 'Shop Now',
     trending: 'Trending',
+    try: 'Try using some glyphs',
   },
   alerts: {
     caught_up: "You're all caught up!",
