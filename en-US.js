@@ -66,6 +66,12 @@ export default {
       old: 'Old',
       files: 'Files',
     },
+    edit: {
+      escape_to: 'escape to ',
+      cancel: 'cancel',
+      enter_to: ' • enter to ',
+      save: 'save'
+    },
   },
   controls: {
     copy_id: 'Copy ID',
