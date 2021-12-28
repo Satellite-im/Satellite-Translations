@@ -80,12 +80,14 @@ export default {
     mic: 'Mic',
     headphones: 'Audio',
     video: 'Video',
+    call: 'Call',
     mute: 'Mute',
     toggle: 'Toggle',
     deafen: 'Deafen',
     crop: 'Crop',
     edit: 'Edit',
     end_stream: 'End Stream',
+    not_connected: 'You are not connected to the peer',
   },
   popups: {
     error: {
