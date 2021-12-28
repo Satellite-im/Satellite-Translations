@@ -426,7 +426,7 @@ export default {
       textile_not_initialized: 'Your account is not ready. Try later',
     },
     chat: {
-      drop_file_count: 'Sorry, you can only upload 4 files at a time',
+      drop_file_count: 'Sorry, you can only upload 8 files at a time',
       unable_preview: 'Unable to preview file',
       upload_blocked: 'Upload Blocked',
     },
