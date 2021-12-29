@@ -317,6 +317,7 @@ export default {
         no_devices: 'No connected devices found.',
       },
       personalize: {
+        flair: 'Flair',
         title: 'Personalize Satellite',
         subtitle: 'Make it your own and choose custom colors & themes.',
         theme: 'Color Theme',
