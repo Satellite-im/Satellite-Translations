@@ -70,7 +70,7 @@ export default {
       escape_to: 'escape to ',
       cancel: 'cancel',
       enter_to: ' • enter to ',
-      save: 'save'
+      save: 'save',
     },
   },
   controls: {
@@ -223,6 +223,18 @@ export default {
         },
         send_label: 'Send Notification',
         send_placeholder: 'Content you want to appear in local notification',
+        sounds: {
+          title: 'Sounds',
+          message: 'Message',
+          call: 'Call',
+          hangup: 'Hang Up',
+          mute: 'Mute',
+          unmute: 'Unmute',
+          deafen: 'Deafen',
+          undeafen: 'Undeafen',
+          upload: 'Upload',
+          connected: 'Connected',
+        },
       },
       audio: {
         title: 'Audio',
