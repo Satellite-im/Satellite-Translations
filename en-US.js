@@ -227,7 +227,7 @@ export default {
           title: 'Sounds',
           message: 'Message',
           call: 'Call',
-          hangup: 'hangup',
+          hangup: 'Hang Up',
           mute: 'Mute',
           unmute: 'Unmute',
           deafen: 'Deafen',
