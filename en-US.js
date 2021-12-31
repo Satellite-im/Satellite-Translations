@@ -103,6 +103,7 @@ export default {
   },
   files: {
     files: 'Files',
+    view_original: 'View Original',
   },
   pages: {
     files: {
