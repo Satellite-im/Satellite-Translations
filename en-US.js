@@ -319,6 +319,10 @@ export default {
         save: 'Save',
         cancel: 'Cancel',
         reset_all: 'Reset All Keybinds',
+        systemHotkeyError: 'That is browser/system shortcut. Please input other keys.',
+        existHotkeyError: 'Key already bound',
+        modifierHotkeyError: 'Modifiers (Shift, Tab, Option, etc.) Must Come Before Alphanumerics',
+        editHotkeyError: 'Character Not Allowed'
       },
       accounts: {
         title: 'Accounts & Devices',
