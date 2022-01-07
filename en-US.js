@@ -323,7 +323,7 @@ export default {
           'That is browser/system shortcut. Please input other keys.',
         existHotkeyError: 'Key already bound',
         modifierHotkeyError:
-          'Modifiers (Shift, Tab, Option, etc.) Must Come Before Alphanumerics',
+          'Modifiers (Shift, Tab, Option, etc.) Must come before alphanumerics',
         editHotkeyError: 'Character Not Allowed',
       },
       accounts: {
