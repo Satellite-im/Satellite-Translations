@@ -104,6 +104,7 @@ export default {
   },
   files: {
     files: 'Files',
+    view_original: 'View Original',
   },
   pages: {
     files: {
@@ -451,6 +452,7 @@ export default {
       drop_file_count: 'Sorry, you can only upload 8 files at a time',
       unable_preview: 'Unable to preview file',
       upload_blocked: 'Upload Blocked',
+      contains_nsfw: 'Unable to upload file/s due to nsfw status',
     },
   },
   search: {
