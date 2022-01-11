@@ -454,6 +454,11 @@ export default {
       upload_blocked: 'Upload Blocked',
       contains_nsfw: 'Unable to upload file/s due to NSFW status',
     },
+    textile: {
+      friend_not_found: 'Friend not found',
+      mailbox_manager_not_found: 'Mailbox manager not found',
+      mailbox_manager_not_initialized: 'Mailbox manager not initialized'
+    },
   },
   search: {
     search: 'Search... ',
