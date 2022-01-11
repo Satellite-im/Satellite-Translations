@@ -87,7 +87,7 @@ export default {
     crop: 'Crop',
     edit: 'Edit',
     end_stream: 'End Stream',
-    not_connected: 'You are not connected to the peer',
+    not_connected: 'Offline calling unavailable',
     not_available: 'Not available yet',
   },
   popups: {
