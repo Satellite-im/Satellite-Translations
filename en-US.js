@@ -343,11 +343,16 @@ export default {
         theme: 'Color Theme',
         language: 'Language',
       },
-      network: {
+      realms: {
         title: 'Realms',
         subtitle:
           "Change the realm Satellite lives in. Changing a realm will mean you can only communicate with others in the same realm as you. Please only change if you know what you're doing.",
         chain: 'Realm',
+      },
+      network: {
+        title: 'Network',
+        subtitle:
+          "Change network options, please note that switching from 'Testnet' to 'Mainnet' can trigger errors and additional charges during the alpha period.",
         network: 'Network',
         allow_embeds: 'Allow Embeds',
         allow_embeds_description:
