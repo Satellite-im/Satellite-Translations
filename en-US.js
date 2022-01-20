@@ -335,6 +335,7 @@ export default {
         gas_price: 'Transaction Fee Limit',
         devices: 'Connected Devices',
         no_devices: 'No connected devices found.',
+        no_status: 'No status set.',
       },
       personalize: {
         flair: 'Flair',
@@ -462,7 +463,7 @@ export default {
     textile: {
       friend_not_found: 'Friend not found',
       mailbox_manager_not_found: 'Mailbox manager not found',
-      mailbox_manager_not_initialized: 'Mailbox manager not initialized'
+      mailbox_manager_not_initialized: 'Mailbox manager not initialized',
     },
   },
   search: {
