@@ -576,7 +576,7 @@ export default {
         spotify: 'Listening to Spotify',
         currently: 'Currently Playing',
       },
-      mututal: {
+      mutual: {
         tab: 'Mutual',
         servers: 'Servers',
         friends: 'Friends',
