@@ -563,5 +563,24 @@ export default {
         "This update requires a refresh of the Alpha application. Click 'Update Now' below to start fresh on the new update.",
       got_it: 'Got It!',
     },
+    profile: {
+      about: {
+        tab: 'About',
+        about_me: 'About Me',
+        location: 'Location',
+        add_note: 'Add Note',
+      },
+      accounts: 'Accounts',
+      activity: {
+        tab: 'Activity',
+        spotify: 'Listening to Spotify',
+        currently: 'Currently Playing',
+      },
+      mututal: {
+        tab: 'Mutual',
+        servers: 'Servers',
+        friends: 'Friends',
+      },
+    },
   },
 }
