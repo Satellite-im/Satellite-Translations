@@ -566,9 +566,10 @@ export default {
     profile: {
       about: {
         tab: 'About',
-        about_me: 'About Me',
+        me: 'About Me',
         location: 'Location',
         add_note: 'Add Note',
+        click_note: 'Click to add note',
       },
       accounts: 'Accounts',
       activity: {
