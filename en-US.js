@@ -447,6 +447,8 @@ export default {
       user_derivation_failed:
         'We were unable to verify your passphrase. Please check it and try again.',
       mnemonic_not_present: 'Problem with passphrase, please try again.',
+      file_too_large:
+        'File is too large to be NSFW scanned, please upload a file smaller than 8MB.',
     },
     friends: {
       request_already_sent: 'You have already sent a request to this user',
