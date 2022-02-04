@@ -390,6 +390,7 @@ export default {
           selectLocation: 'Select Location',
           language: 'Language',
           selectLanguage: 'Select Language',
+          noResult: 'No elements found',
         },
         phrase: {
           title: 'Recovery Phrase',
