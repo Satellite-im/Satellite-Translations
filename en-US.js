@@ -388,6 +388,7 @@ export default {
           preferences: 'Preferences',
           location: 'Location',
           selectLocation: 'Select Location',
+          timezone: 'Timezone',
           language: 'Language',
           selectLanguage: 'Select Language',
         },
